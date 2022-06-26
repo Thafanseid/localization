@@ -17,7 +17,7 @@ php artisan migrate
 ```
 ##  Database Seed
 ```
-    php artisan db:seed
+php artisan db:seed
 ```
 ## Locales in Laravel
 But how does Laravel know what the current language is or what languages are available in the application? It does this by looking at the locale setup in the `config/app.php` Open up this file and look for these two array keys:
